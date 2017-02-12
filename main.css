@@ -1,0 +1,178 @@
+/* 重置*/
+body,div,p,ul,ol,dl,dt,dd,li,form,input,table,th,td,img,h1,h2,h3,h4,h5,h6{margin:0;padding:0;}
+
+body{
+background:#fff;color:#000;font-size:12px;font-style:normal;font-family:'Microsoft Yahei','微软雅黑'，'Simsun','宋体'，'Arial',sans-serif;
+}
+em,b,i{
+font-style:normal;
+}
+li{list-style:none;}
+img{border:none;}
+a{text-decoration:none;color:#cc41b7;}
+a:hover{text-decoration:none;color:#f50;}
+table{border-spacing:0;border-collapse:collapse;}
+.clearfix:before,
+.clearfix:after{
+	display:table;
+		}
+.clearfix:after{
+	content:'';
+	clear:both;
+		}
+
+
+/*头部部分*/
+.header-box{
+     height: 140px;
+    
+     
+}
+
+.header-box h1{
+    line-height:100px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300px;
+   
+}
+.header-box h1 a{
+     color: #f06560
+}
+
+.nav{
+    width:1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.nav li a{
+    margin-right: 60px;
+    font-size: 20px;
+    color: #ccc;
+    text-decoration: none;
+    
+    
+}
+.nav li a.current{
+    color: #f06560
+}
+
+/*主体部分*/
+.body-box{
+    min-height: 600px;
+   
+}
+.container{
+    width: 1000px;
+    min-height: 600px;
+    margin: 0 auto;
+    background: #fff;
+    overflow: hidden;
+}
+.item{
+    width: 400px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+.items-img img{
+    width: 400px;
+    height: 300px;
+    cursor: pointer;
+   
+    
+}
+.items-img img:hover{
+    background:#6d7c7c; 
+    opacity: 0.3;
+    transition: all 3s linear;
+}
+
+.item-blog a img{
+    width: 400px;
+    height: 200px;
+    
+}
+.item-blog a:hover{
+    background:#6d7c7c; 
+    opacity: 0.3;
+    transition: all 0.3s linear
+}
+
+.items-2 h3 {
+    padding: 15px;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+    color: #7e838f;
+    
+}
+.item-box{
+    width: 400px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.items-2{
+    width: 400px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 60px;
+}
+
+
+.listen{
+    text-align: center;
+    margin-top: 30px;
+    padding: 5px;
+    font-size: 40px;
+    font-weight: normal
+}
+
+.content p{
+    text-align: left;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #7e838f
+}
+.content .content-eg{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 10px;
+    color: #7e838f
+}
+
+
+.work-img img{
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+}
+.aboutme p{ text-align: center;}
+
+.aboutme img{
+    padding: 20px;
+    width: 150px;
+    height: 150px;
+    border-radius: 160px
+}
+
+
+.about-text p{
+   margin: 30px auto;
+    font-size: 12px;
+    font-weight: normal;
+    color: #7e838f
+}
+
+/*尾部部分*/
+.footer a{
+    display: block;
+    height: 120px;
+    line-height: 120px;
+    text-align: center;
+    color: #f06560;
+    font-size: 13px;
+     
+}
